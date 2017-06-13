@@ -4,7 +4,7 @@ EXPOSE 8080
 
 VOLUME /tmp
 
-ADD ./usr/local/spring-boot-rest
+ADD . /usr/local/spring-boot-rest
 
 RUN cd /usr/local/spring-boot-rest && mvn assembly:assembly
 ADD ./usr/local/spring-boot-rest/target/spring-boot-restspring-boot-rest-0.0.1-SNAPSHOT.jar spring-boot-rest.jar
