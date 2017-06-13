@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.apolloglobal.soa.facade</groupId>
-	<artifactId>soa-facade</artifactId>
+	<groupId>com.javacircle.facade</groupId>
+	<artifactId>spring-boot-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SOA Facade</name>
-	<description>Facade invoke SOA Services</description>
+	<name>Spring Boot REST</name>
+	<description>Spring Boot REST DEMO</description>
 
 
 
@@ -51,7 +51,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>1.5.3.RELEASE</version>
 				<configuration>
-					<mainClass>com.apolloglobal.soa.ServiceApp</mainClass>
+					<mainClass>com.javacircle.soa.ServiceApp</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
 			</plugin>

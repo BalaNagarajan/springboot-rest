@@ -1,4 +1,4 @@
-package com.apolloglobal.soa.controller;
+package com.javacircle.soa.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.apolloglobal.soa.model.Profile;
-import com.apolloglobal.soa.service.ProfileService;
+import com.javacircle.soa.model.Profile;
+import com.javacircle.soa.service.ProfileService;
 
 @RestController
 public class ProfileController {

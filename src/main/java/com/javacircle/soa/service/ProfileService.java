@@ -1,4 +1,4 @@
-package com.apolloglobal.soa.service;
+package com.javacircle.soa.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-import com.apolloglobal.soa.model.Profile;
+import com.javacircle.soa.model.Profile;
 
 @Service
 public class ProfileService {

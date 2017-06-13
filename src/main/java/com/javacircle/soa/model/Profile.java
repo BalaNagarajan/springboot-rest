@@ -1,4 +1,4 @@
-package com.apolloglobal.soa.model;
+package com.javacircle.soa.model;
 
 
 public class Profile {
