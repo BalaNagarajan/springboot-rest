@@ -29,6 +29,7 @@ public class ProfileController {
 	@RequestMapping(method = RequestMethod.GET, value = "/profiles")
 	public List<Profile> getCompanyProfiles() {
 
+		System.out.println("----------TEST------------");
 		return profileService.getAllProfiles();
 
 	}
